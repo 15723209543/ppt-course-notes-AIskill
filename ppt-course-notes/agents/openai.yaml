@@ -1,0 +1,7 @@
+interface:
+  display_name: "PPT 自动课程笔记"
+  short_description: "从PPT/PDF与课堂附件生成详细中文课程笔记、来源页码索引和遗漏清单"
+  default_prompt: "用 $ppt-course-notes 整理本次 PPT：按章节详细整理知识点，并检查课件页码覆盖。"
+
+policy:
+  allow_implicit_invocation: true
